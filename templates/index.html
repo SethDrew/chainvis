@@ -8,10 +8,12 @@
 <div id="grid"></div>
 <script src="{{url_for('static', filename='js/grid.js')}}"></script>
 <script>
-  var flips = '{{flips}}';
+  var flips = {{flips}};
   drawGrid(flips);
-  console.log(flips[50]);
+  
 </script>
+
+
 
 </body>
 </html>

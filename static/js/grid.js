@@ -40,7 +40,7 @@ function drawGrid(flip_counts) {
     var min = Math.min.apply( null, counts );
     var max = Math.max.apply( null, counts );
 
-    var color = d3.scaleOrdinal(d3['schemeCategory20c']);
+    // var color = d3.scaleOrdinal(d3['schemeCategory20c']);
     // console.log(d3['schemeDark2']);
        // .domain([min,max])
        // .range(["red","blue"]);
